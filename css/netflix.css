@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+background-color: black; 
+font-family: 'Lato', sans-serif;
+color: white;
+}
+#Header{
+   position: relative;
+   z-index: 1;
+}
+#Header article{
+    margin: 0 auto;
+    height: 100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+.LeftBlock svg{
+    width:140px;
+    height:45px ;
+    fill: red;
+    line-height: normal ;
+}
+.LeftBlock{
+width: 50%;
+display: flex;
+justify-content: flex-start;
+}
+.RightBlock{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.RightBlock ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.RightBlock ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    letter-spacing: 1.2px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+}
+/* #SliderBlock img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+} */
+#SliderBlock{
+    margin-top: -100px;
+    background-image: url("../images/flichter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 30px 70px 350px 56px inset black;
+}
+
+#SliderBlock article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.contentBlock{
+    width: 850px;
+} 
+.contentBlock h1{
+    font-size: 65px;
+}
+.contentBlock h2{
+    font-size: 25px;
+    padding: 25px 0;
+    font-weight: 400px;
+}
+.contentBlock p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+.contentBlock form{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.contentBlock button{
+    font-size: 26px;
+    width: 30%;
+    height: 70px;
+    border: none;
+    background-color:red;
+    color: white;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+}
+.contentBlock button span{
+    position: relative;
+}
+.contentBlock button span i{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+.contentBlock input{
+    width: 75%;
+    height: 70px;
+    font-size: 15px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+#enjoyblock{
+    width: 100%;
+    height: 600px;
+    border-top: 5px solid gray;
+}
+#enjoyblock article{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.enjoyleftblock{
+    width: 50%;
+}
+.enjoyleftblock h1{
+    font-size: 45px;
+    padding: 10px 0px;
+}
+.enjoyleftblock p{
+    font-size: 25px;
+}
+
+.enjoyrightblock{
+    width: 50%; 
+    position: relative;  
+}
+.img_tv{
+    position: absolute;
+   width: 100%;
+   top: -229px;
+}
+.img_tv img{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.tv_video video{
+    position: absolute;
+    top: -128px;
+    left: 83px;
+    width: 460px;
+
+}
+#download{
+    width: 100%;
+    height: 600px;
+    border-top: 5px solid gray;
+}
+#download article{
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    background-color: black;   
+    display: flex;
+    align-items: center; 
+   
+}
+.app_img{
+    width: 50%;
+}
+.app_img img{
+    width: 100%;
+}
+.stranger{
+ width: 100px;
+ height: 50px; 
+ position: relative;  
+}
+.stranger img{
+    position: absolute;
+    top: 134px;
+    left: -457px;
+    width: 64px;
+    height: 86px
+}
+.link{
+    position: relative;
+}
+.link h1{
+    position: absolute;
+    top: 136px;
+    left: -483px
+}
+.link a{
+    position: absolute;
+    top: 157px;
+    left: -483px;
+    text-decoration: none;
+}
+.offline{
+    width: 50%;
+}
+.offline h1{
+    font-size: 45px;
+    padding: 10px 0px;
+}
+.offline p{
+    font-size: 25px;
+}
+
+
+#third{
+    width: 100%;
+    height: 650px;
+    border-top: 5px solid gray;
+    border-bottom: 5px solid gray;
+}
+#third article{
+    width: 80%;
+    margin: 0 auto;
+    height: 650px;
+     display: flex;
+    align-items: center;
+}
+
+
+.watch{
+    width: 50%;
+}
+.watch h1{
+    font-size: 45px;
+    padding: 10px 0px;
+}
+.watch p{
+    font-size: 25px;
+}
+
+.rightblock{
+    width: 50%;
+}
+.tv{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.tv img{
+    position: absolute;
+    top: -154px
+}
+.videos{
+    position: relative;
+  
+}
+.videos video{
+    position: absolute;
+    width: 62%;
+    top: -113px;
+    left: 122px
+}
+
+#queries{
+    width: 100%;
+    height: 600px;
+   
+}
+#queries article{
+    width: 90%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questions h1{
+    font-size: 35px;
+    padding: 10px 10px;
+    text-align: center;
+}
+.questions ul {
+    list-style: none;
+}
+.questions ul li{
+    background-color: #303030;
+    display: block;
+    font-size: 20px;
+    border-bottom: 5px solid black;
+    padding: 15px 10px;
+    height: 60px;
+
+}
+.questions ul li span  {
+    position: relative;
+    display: block;
+}
+.questions ul li span i{
+    position: absolute;
+    top: -22px;
+    left: 688px;
+    font-size: 22px
+}
+.questions p{
+    font-size: 20px;
+    padding: 20px 60px;
+}
+
+.questions form{
+    display: flex;
+    justify-content: flex-start;
+}
+.questions form input{
+    width: 100%;
+    height: 70px;
+    font-size: 15px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+.questions form button{
+    font-size: 26px;
+    width: 58%;
+    height: 70px;
+    border: none;
+    background-color:red;
+    color: white;
+    text-transform: uppercase;
+}
+.questions form  span{
+    position: relative;
+}
+.questions form  span i{
+    position: absolute;
+    left: 6px;
+    top: 2px;
+}
+
+#call{
+    width: 100%;
+    height: 45px;
+    position: relative;
+    padding: 10px 10px;
+    border-top: 5px solid gray;
+}
+#call p{
+    position: absolute;
+    left: 253px;
+    color: gray;
+}
+
+#footer_part{
+    width: 100%;
+    height: 300px;
+}
+#footer_part article{
+    width: 70%;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    font-size: 15px;
+    
+}
+
+.privacy{
+    width: 25%;
+}
+.privacy ul{
+    list-style: none;
+}
+.privacy ul li a{ 
+    text-decoration: none;
+    color: gray;
+    padding: 20px 20px;
+
+}
+.cookies{
+    width: 25%;
+}
+
+.cookies ul {
+    list-style: none;
+}
+.cookies ul li a{ 
+    text-decoration: none;
+    color: gray;
+    padding: 20px 20px;
+}
+.corporate{
+    width: 25%;
+}
+.corporate ul{
+    list-style: none;
+}
+.corporate ul li a{ 
+    text-decoration: none;
+    color: gray;
+    padding: 20px 20px;
+}
+.contact{
+    width: 25%;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li a{ 
+    text-decoration: none;
+    color: gray;
+    padding: 20px 20px;
+}
+ 
+#last{
+    width: 100%;
+    position: relative;
+}
+.language {
+    position: absolute;
+    width: 111px;
+    height: 44px;
+    top: -163px;
+    left: 253px;
+    padding: 10px 25px;
+    color: gray;
+    border: 1px solid gray
+
+} 
+.language span{
+    position: relative;
+}
+.language span i{
+    position: absolute;
+    top: 3px;
+    left: -22px
+}
+.second_Span span{
+    position: relative;
+}
+.second_Span span i{
+    position: absolute;
+    top: -149px;
+    left: 343px;
+    color: gray;
+}
+
+#last p{
+    position: absolute;
+    top: -100px;
+    left: 253px;
+    font-size: 13px;
+    color: gray;
+}
+
